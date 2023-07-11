@@ -1,0 +1,375 @@
+{
+  "name": "xotonight",
+  "type": "dark",
+  "colors": {
+    "foreground": "--xotonight-gray-10",
+    "focusBorder": "--xotonight-blueaa",
+    
+    "contrastBorder": "--xotonight-gray-2",
+    
+    "editorCursor.foreground": "--xotonight-blue",
+    "editorRuler.foreground": "--xotonight-gray-6bb",
+    
+    "scrollbar.shadow": "#00000022",
+    
+    "tree.indentGuidesStroke": "--xotonight-gray-766",
+    
+    "editorLink.activeForeground": "--xotonight-gray-10",
+    "selection.background": "--xotonight-gray-5",
+    "progressBar.background": "--xotonight-blue",
+    
+    "textLink.foreground": "--xotonight-sky-blue",
+    "textLink.activeForeground": "#b2dfff",
+    
+    "editorLineNumber.foreground": "--xotonight-gray-6",
+    "editorLineNumber.activeForeground": "--xotonight-gray-7",
+    "editorBracketMatch.border": "--xotonight-bluebb",
+    "editorBracketMatch.background": "--xotonight-gray-4",
+    "editorWhitespace.foreground": "--xotonight-gray-1040",
+    "editor.background": "--xotonight-gray-4",
+    "editor.foreground": "--xotonight-gray-10",
+    "editor.lineHighlightBackground": "--xotonight-gray-5",
+    "editor.selectionBackground": "--xotonight-gray-750",
+    "editor.selectionHighlightBackground": "--xotonight-gray-6",
+    "editor.findMatchBackground": "--xotonight-gray-6",
+    "editor.findMatchBorder": "--xotonight-cyan",
+    "editor.findMatchHighlightBackground": "--xotonight-gray-6",
+    "editorOverviewRuler.findMatchForeground": "--xotonight-cyanbb",
+    "editorOverviewRuler.errorForeground": "--xotonight-redcc",
+    "editorOverviewRuler.infoForeground": "--xotonight-sky-blue66",
+    "editorOverviewRuler.warningForeground": "--xotonight-yellowcc",
+    "editorOverviewRuler.modifiedForeground": "--xotonight-blue66",
+    "editorOverviewRuler.addedForeground": "--xotonight-green66",
+    "editorOverviewRuler.deletedForeground": "--xotonight-light-red66",
+    "editorOverviewRuler.bracketMatchForeground": "--xotonight-dark-bluebb",
+    "editorOverviewRuler.border": "--xotonight-gray-4",
+    "editorHoverWidget.background": "#1b1d2c",
+    "editorHoverWidget.border": "#000000aa",
+    "editorIndentGuide.background": "--xotonight-gray-6bb",
+    "editorIndentGuide.activeBackground": "--xotonight-gray-7aa",
+    "editorGroupHeader.tabsBackground": "--xotonight-gray-3",
+    "editorGroup.border": "--xotonight-gray-2",
+    "editorGutter.modifiedBackground": "--xotonight-blue66",
+    "editorGutter.addedBackground": "--xotonight-green66",
+    "editorGutter.deletedBackground": "--xotonight-dark-redaa",
+    
+    "tab.activeBorder": "--xotonight-blue",
+    "tab.activeModifiedBorder": "--xotonight-gray-7",
+    "tab.unfocusedActiveBorder": "--xotonight-gray-7",
+    "tab.activeForeground": "--xotonight-gray-10",
+    "tab.activeBackground": "--xotonight-gray-4",
+    "tab.inactiveForeground": "--xotonight-gray-7",
+    "tab.inactiveBackground": "--xotonight-gray-3",
+    "tab.unfocusedActiveForeground": "--xotonight-gray-10",
+    "tab.border": "--xotonight-gray-2",
+    
+    "statusBar.noFolderBackground": "--xotonight-gray-4",
+    "statusBar.border": "--xotonight-gray-2",
+    "statusBar.background": "--xotonight-gray-3",
+    "statusBar.foreground": "--xotonight-gray-7",
+    "statusBar.debuggingBackground": "--xotonight-blue",
+    "statusBar.debuggingForeground": "--xotonight-gray-10",
+    "statusBarItem.hoverBackground": "--xotonight-gray-720",
+    
+    "activityBar.background": "--xotonight-gray-3",
+    "activityBar.border": "--xotonight-gray-460",
+    "activityBar.foreground": "--xotonight-gray-9",
+    "activityBarBadge.background": "--xotonight-dark-blue",
+    "activityBarBadge.foreground": "#ffffff",
+    
+    "titleBar.activeBackground": "--xotonight-gray-3",
+    "titleBar.activeForeground": "--xotonight-gray-10",
+    "titleBar.inactiveBackground": "--xotonight-gray-3",
+    "titleBar.inactiveForeground": "--xotonight-gray-7",
+    "titleBar.border": "--xotonight-gray-2",
+    
+    "sideBar.background": "--xotonight-gray-3",
+    "sideBar.foreground": "--xotonight-gray-7",
+    "sideBar.border": "--xotonight-gray-2",
+    
+    "sideBarTitle.foreground": "--xotonight-gray-10",
+    "sideBarSectionHeader.background": "--xotonight-gray-3",
+    "sideBarSectionHeader.border": "--xotonight-gray-5",
+    
+    "input.background": "--xotonight-gray-2",
+    "input.foreground": "--xotonight-gray-10",
+    "input.placeholderForeground": "--xotonight-gray-10aa",
+    "input.border": "#00000066",
+    
+    "inputValidation.errorBackground": "#c53b53",
+    "inputValidation.errorForeground": "#ffffff",
+    "inputValidation.errorBorder": "--xotonight-dark-red50",
+    "inputValidation.infoBackground": "#446bbb",
+    "inputValidation.infoForeground": "#ffffff",
+    "inputValidation.infoBorder": "--xotonight-blue50",
+    "inputValidation.warningBackground": "#ad7c43",
+    "inputValidation.warningForeground": "#ffffff",
+    "inputValidation.warningBorder": "--xotonight-yellow50",
+    
+    "dropdown.foreground": "--xotonight-gray-10",
+    "dropdown.background": "--xotonight-gray-5",
+    "dropdown.border": "#00000066",
+    
+    "list.hoverForeground": "--xotonight-gray-10",
+    "list.hoverBackground": "--xotonight-gray-3",
+    "list.activeSelectionBackground": "#383e5c",
+    "list.activeSelectionForeground": "#ffffff",
+    "list.inactiveSelectionForeground": "--xotonight-gray-10",
+    "list.inactiveSelectionBackground": "#292e46",
+    "list.focusBackground": "--xotonight-gray-1",
+    "list.focusForeground": "--xotonight-gray-10",
+    "list.highlightForeground": "--xotonight-cyan",
+    "list.warningForeground": "--xotonight-yellowcc",
+    
+    "terminal.foreground": "--xotonight-gray-10-alt",
+    "terminal.selectionBackground": "--xotonight-gray-1044",
+    "terminal.ansiWhite": "--xotonight-gray-10",
+    "terminal.ansiBlack": "#000000",
+    "terminal.ansiBlue": "--xotonight-blue",
+    "terminal.ansiCyan": "--xotonight-cyan",
+    "terminal.ansiGreen": "--xotonight-green",
+    "terminal.ansiMagenta": "--xotonight-pink",
+    "terminal.ansiRed": "--xotonight-red",
+    "terminal.ansiYellow": "--xotonight-yellow",
+    "terminal.ansiBrightWhite": "--xotonight-gray-10",
+    "terminal.ansiBrightBlack": "--xotonight-gray-7",
+    "terminal.ansiBrightBlue": "--xotonight-blue",
+    "terminal.ansiBrightCyan": "--xotonight-cyan",
+    "terminal.ansiBrightGreen": "--xotonight-green",
+    "terminal.ansiBrightMagenta": "--xotonight-pink",
+    "terminal.ansiBrightRed": "--xotonight-red",
+    "terminal.ansiBrightYellow": "--xotonight-yellow",
+    "terminal.border": "--xotonight-gray-5",
+    
+    "scrollbarSlider.background": "--xotonight-gray-730",
+    "scrollbarSlider.hoverBackground": "--xotonight-gray-830",
+    "scrollbarSlider.activeBackground": "--xotonight-blue",
+    
+    "minimap.findMatchHighlight": "--xotonight-cyancc",
+    "minimap.selectionHighlight": "--xotonight-cyan33",
+    "minimapGutter.addedBackground": "--xotonight-green66",
+    "minimapGutter.modifiedBackground": "--xotonight-blue66",
+    
+    "editorSuggestWidget.background": "--xotonight-gray-2",
+    "editorSuggestWidget.foreground": "--xotonight-gray-8",
+    "editorSuggestWidget.highlightForeground": "--xotonight-cyan",
+    "editorSuggestWidget.selectedBackground": "--xotonight-gray-5",
+    "editorSuggestWidget.border": "#00000033",
+    
+    "editorError.foreground": "--xotonight-dark-red",
+    "editorWarning.foreground": "--xotonight-yellowcc",
+    "editorWidget.background": "--xotonight-gray-3",
+    "editorWidget.resizeBorder": "--xotonight-blue",
+    "editorMarkerNavigation.background": "--xotonight-gray-1005",
+    
+    "widget.shadow": "#00000033",
+    
+    "panel.border": "#00000033",
+    "panel.background": "--xotonight-gray-3",
+    "panel.dropBackground": "--xotonight-gray-10",
+    "panelTitle.inactiveForeground": "--xotonight-gray-7",
+    "panelTitle.activeForeground": "--xotonight-gray-10",
+    "panelTitle.activeBorder": "--xotonight-blue",
+    
+    "terminalCursor.foreground": "--xotonight-blue",
+    
+    "diffEditor.insertedTextBackground": "--xotonight-green15",
+    "diffEditor.removedTextBackground": "--xotonight-dark-red20",
+    
+    "notifications.background": "--xotonight-gray-2",
+    "notifications.foreground": "--xotonight-gray-10",
+    "notificationLink.foreground": "--xotonight-blue",
+    
+    "badge.background": "--xotonight-dark-blue",
+    "badge.foreground": "#ffffff",
+    
+    "button.background": "--xotonight-dark-blue",
+    "button.hoverBackground": "--xotonight-sky-bluecc",
+    
+    "extensionButton.prominentBackground": "--xotonight-dark-blue",
+    "extensionButton.prominentHoverBackground": "--xotonight-sky-bluecc",
+    
+    "peekView.border": "#00000030",
+    "peekViewEditor.background": "--xotonight-gray-1005",
+    "peekViewTitle.background": "--xotonight-gray-1005",
+    "peekViewResult.background": "--xotonight-gray-1005",
+    "peekViewEditorGutter.background": "--xotonight-gray-1005",
+    "peekViewTitleDescription.foreground": "--xotonight-gray-1060",
+    "peekViewResult.matchHighlightBackground": "--xotonight-gray-750",
+    "peekViewEditor.matchHighlightBackground": "--xotonight-gray-750",
+    
+    "debugToolBar.background": "--xotonight-gray-3",
+    
+    "pickerGroup.foreground": "--xotonight-blue",
+    
+    "gitDecoration.deletedResourceForeground": "--xotonight-dark-reddd",
+    "gitDecoration.conflictingResourceForeground": "--xotonight-yellowcc",
+    "gitDecoration.modifiedResourceForeground": "--xotonight-blueee",
+    "gitDecoration.untrackedResourceForeground": "#77e0c6dd",
+    "gitDecoration.ignoredResourceForeground": "#777fabaa",
+    
+    "gitlens.trailingLineForegroundColor": "--xotonight-gray-7aa",
+    
+    "editorCodeLens.foreground": "--xotonight-gray-7",
+    
+    "peekViewResult.selectionBackground": "--xotonight-gray-770",
+    
+    "breadcrumb.background": "--xotonight-gray-4",
+    "breadcrumb.foreground": "--xotonight-gray-7",
+    "breadcrumb.focusForeground": "--xotonight-gray-10",
+    "breadcrumb.activeSelectionForeground": "--xotonight-blue",
+    "breadcrumbPicker.background": "--xotonight-gray-3",
+    
+    "menu.background": "--xotonight-gray-3",
+    "menu.foreground": "--xotonight-gray-10",
+    "menu.selectionBackground": "#00000050",
+    "menu.selectionForeground": "--xotonight-blue",
+    "menu.selectionBorder": "#00000030",
+    "menu.separatorBackground": "--xotonight-gray-10",
+    
+    "menubar.selectionBackground": "#00000030",
+    "menubar.selectionForeground": "--xotonight-blue",
+    "menubar.selectionBorder": "#00000030",
+    
+    "settings.dropdownForeground": "--xotonight-gray-10",
+    "settings.dropdownBackground": "--xotonight-gray-5",
+    "settings.dropdownBorder": "--xotonight-gray-2",
+    "settings.numberInputForeground": "--xotonight-gray-10",
+    "settings.numberInputBackground": "--xotonight-gray-2",
+    "settings.numberInputBorder": "#00000066",
+    "settings.textInputForeground": "--xotonight-gray-10",
+    "settings.textInputBackground": "--xotonight-gray-2",
+    "settings.textInputBorder": "#00000066",
+    "settings.headerForeground": "--xotonight-blue",
+    "settings.modifiedItemIndicator": "--xotonight-blue",
+    "settings.checkboxBackground": "--xotonight-gray-1",
+    "settings.checkboxForeground": "--xotonight-gray-10",
+    "settings.checkboxBorder": "#00000066"
+  },
+  "tokenColors": [
+    {"name": "Comment","scope": [ "comment", "punctuation.definition.comment", "string.quoted.docstring" ],"settings": { "fontStyle": "italic", "foreground": "--xotonight-indigo" }},
+    
+    {"name": "Variables and Plain Text","scope": [ "variable", "support.variable", "string constant.other.placeholder", "text.html" ],"settings": { "foreground": "--xotonight-gray-10" }},
+    
+    {"name": "DOM Variables","scope": [ "support.variable.dom", "support.constant.math", "support.type.object.module", "support.variable.object.process", "support.constant.json" ],"settings": { "foreground": "--xotonight-yellow" }},
+    
+    {"name": "Nil","scope": [ "constant.language.undefined", "constant.language.null" ],"settings": { "foreground": "--xotonight-desaturated-gray" }},
+    
+    {"name": "PHP Constants","scope": [ "constant.other.php" ],"settings": { "foreground": "--xotonight-yellow" }},
+    
+    {"name": "Colors","scope": [ "constant.other.color" ],"settings": { "foreground": "#ffffff" }},
+    
+    {"name": "Invalid","scope": [ "invalid", "invalid.illegal" ],"settings": { "foreground": "--xotonight-dark-red" }},
+    {"name": "Invalid deprecated","scope": [ "invalid.deprecated" ],"settings": { "foreground": "--xotonight-purple" }},
+    
+    {"name": "Keyword, Storage","scope": [ "keyword", "storage.type", "storage.modifier", "keyword.other.important" ],"settings": { "foreground": "--xotonight-purple" }},
+    {"name": "Keyword, Storage","scope": [ "keyword.control", "storage" ],"settings": { "fontStyle": "italic" }},
+    
+    {"name": "Interpolation","scope": [ "punctuation.definition.template-expression", "punctuation.section.embedded" ],"settings": { "foreground": "--xotonight-cyan" }},
+    {"name": "Spread","scope": [ "keyword.operator.spread", "keyword.operator.rest" ],"settings": { "foreground": "--xotonight-red", "fontStyle": "bold" }},
+    {"name": "Operator, Misc","scope": [ "keyword.operator", "keyword.control", "punctuation", "punctuation.definition.string", "punctuation.support.type.property-name", "text.html.vue-html meta.tag", "punctuation.definition.keyword", "punctuation.terminator.rule", "punctuation.definition.entity", "constant.other.color", "meta.tag", "punctuation.definition.tag", "punctuation.separator.inheritance.php", "punctuation.definition.block.tag", "punctuation.definition.tag.html", "punctuation.definition.tag.begin.html", "punctuation.definition.tag.end.html", "meta.property-list", "meta.brace.square", "keyword.other.template", "keyword.other.substitution" ],"settings": { "foreground": "--xotonight-cyan" }},
+    {"name": "Keyword Control","scope": [ "keyword.control" ],"settings": { "fontStyle": "italic" }},
+
+    {"name": "Tag","scope": [ "entity.name.tag", "meta.tag", "markup.deleted.git_gutter" ],"settings": { "foreground": "--xotonight-red" }},
+    {"name": "Function, Special Method","scope": [ "entity.name.function", "variable.function", "keyword.other.special-method" ],"settings": { "foreground": "--xotonight-blue" }},
+    {"name": "Support Function","scope": [ "support.function", "meta.function-call entity.name.function" ],"settings": { "foreground": "--xotonight-sky-blue" }},
+    {"name": "C-related Block Level Variables","scope": [ "source.cpp meta.block variable.other" ],"settings": { "foreground": "--xotonight-red" }},
+    {"name": "Other Variable, String Link","scope": [ "support.other.variable", "string.other.link" ],"settings": { "foreground": "--xotonight-red" }},
+    {"name": "Constant, Function Argument, Tag Attribute, Embedded","scope": [ "variable.other.constant", "constant.language", "keyword.other.type.php", "storage.type.php", "support.constant", "constant.character", "constant.escape", "keyword.other.unit" ],"settings": { "foreground": "--xotonight-light-red" }},
+
+    {"name": "Number, Boolean","scope": [ "constant.numeric", "constant.language.boolean", "constant.language.json", "constant.language.infinity", "constant.language.nan" ],"settings": { "foreground": "--xotonight-orange" }},
+    {"name": "Function Argument","scope": [ "variable.parameter.function.language.special", "variable.parameter", "meta.function.parameter variable" ],"settings": { "foreground": "--xotonight-pink" }},
+    {"name": "String, Symbols, Inherited Class, Markup Heading","scope": [ "string", "constant.other.symbol", "constant.other.key", "entity.other.inherited-class", "markup.heading", "markup.inserted.git_gutter", "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js", "meta.attribute-selector" ],"settings": { "fontStyle": "", "foreground": "--xotonight-green" }},
+    {"name": "Object","scope": [ "variable.other.object" ],"settings": { "foreground": "--xotonight-yellow" }},
+    {"name": "Object Key","scope": [ "meta.object-literal.key", "string.alias.graphql", "string.unquoted.graphql", "string.unquoted.alias.graphql", "meta.field.declaration.ts variable.object.property", "variable.object.property" ],"settings": { "foreground": "--xotonight-teal" }},
+    {"name": "Nested Object Property","scope": [ "meta.object.member", "variable.other.object.property" ],"settings": { "foreground": "--xotonight-gray-8" }},
+    {"name": "Object Property","scope": [ "variable.other.property", "support.variable.property", "support.variable.property.dom" ],"settings": { "foreground": "--xotonight-gray-8" }},
+    
+    {"name": "Haskell Constants","scope": [ "source.haskell constant.other.haskell" ],"settings": { "foreground": "--xotonight-light-red" }},
+    {"name": "Haskell Imports","scope": [ "source.haskell meta.import.haskell entity.name.namespace" ],"settings": { "foreground": "--xotonight-gray-10" }},
+    
+    {"name": "Types Fixes","scope": [ "source.haskell storage.type", "source.c storage.type", "source.java storage.type" ],"settings": { "foreground": "--xotonight-yellow" }},
+    
+    {"name": "Lambda Arrow","scope": [ "storage.type.function" ],"settings": { "foreground": "--xotonight-purple" }},
+    {"name": "Class, Support","scope": [ "entity.name", "support.type", "support.class", "support.orther.namespace.use.php", "meta.use.php", "support.other.namespace.php", "markup.changed.git_gutter", "support.type.sys-types" ],"settings": { "foreground": "--xotonight-yellow" }},
+    {"name": "Entity types","scope": [ "support.type" ],"settings": { "foreground": "--xotonight-orange" }},
+
+    {"name": "Sub-methods","scope": [ "entity.name.module.js", "variable.import.parameter.js", "variable.other.class.js" ],"settings": { "foreground": "--xotonight-red" }},
+    {"name": "Language methods","scope": [ "variable.language" ],"settings": { "fontStyle": "italic", "foreground": "--xotonight-red" }},
+    {"name": "entity.name.method.js","scope": [ "entity.name.method.js" ],"settings": { "fontStyle": "italic", "foreground": "--xotonight-blue" }},
+    {"name": "meta.method.js","scope": [ "meta.class-method.js entity.name.function.js", "variable.function.constructor" ],"settings": { "foreground": "--xotonight-blue" }},
+    {"name": "Attributes","scope": [ "entity.other.attribute-name" ],"settings": { "fontStyle": "italic", "foreground": "--xotonight-purple" }},
+    
+    {"name": "HTML Attributes","scope": [ "text.html.basic entity.other.attribute-name.html", "text.html.basic entity.other.attribute-name" ],"settings": { "foreground": "--xotonight-yellow" }},
+    {"name": "HTML Doctype","scope": [ "meta.tag.metadata.doctype entity.name.tag", "meta.tag.metadata.doctype entity.other.attribute-name" ],"settings": { "fontStyle": "italic", "foreground": "--xotonight-purple" }},
+    
+    {"name": "CSS Class and Support","scope": [ "source.css support.type.property-name", "source.sass support.type.property-name", "source.scss support.type.property-name", "source.less support.type.property-name", "source.stylus support.type.property-name", "source.postcss support.type.property-name", "support.type.property-name.css", "support.type.vendored.property-name" ],"settings": { "foreground": "--xotonight-blue" }},
+    {"name": "CSS value","scope": [ "support.constant.property-value" ],"settings": { "foreground": "--xotonight-cyan" }},
+    {"name": "CSS Classes","scope": [ "entity.other.attribute-name.class" ],"settings": { "foreground": "--xotonight-yellow" }},
+    {"name": "CSS ID's","scope": [ "source.sass keyword.control" ],"settings": { "foreground": "--xotonight-blue" }},
+    {"name": "CSS psuedo selectors","scope": [ "entity.other.attribute-name.pseudo-class", "entity.other.attribute-name.pseudo-element" ],"settings": { "foreground": "--xotonight-teal" }},
+    {"name": "CSS Property value","scope": [ "support.constant.property-value" ],"settings": { "foreground": "--xotonight-pink" }},
+    {"name": "CSS Units","scope": [ "keyword.other.unit" ],"settings": { "foreground": "--xotonight-dark-orange" }},
+
+    {"name": "Inserted","scope": [ "markup.inserted" ],"settings": { "foreground": "--xotonight-green" }},
+    {"name": "Deleted","scope": [ "markup.deleted" ],"settings": { "foreground": "--xotonight-red" }},
+    {"name": "Changed","scope": [ "markup.changed" ],"settings": { "foreground": "--xotonight-purple" }},
+    
+    {"name": "Regular Expressions","scope": [ "string.regexp" ],"settings": { "foreground": "--xotonight-bright-cyan" }},
+    {"name": "Regular Expressions - Punctuation","scope": [ "punctuation.definition.group" ],"settings": { "foreground": "--xotonight-red" }},
+    {"name": "Regular Expressions - Character Class","scope": [ "constant.other.character-class.regexp", "keyword.control.anchor.regexp" ],"settings": { "foreground": "--xotonight-purple" }},
+    {"name": "Regular Expressions - Character Class Set","scope": [ "constant.other.character-class.set.regexp" ],"settings": { "foreground": "--xotonight-yellow" }},
+    {"name": "Regular Expressions - Quantifier","scope": [ "keyword.operator.quantifier.regexp" ],"settings": { "foreground": "--xotonight-pink" }},
+    
+    {"name": "Escape Characters","scope": [ "constant.character.escape" ],"settings": { "foreground": "--xotonight-cyan" }},
+    {"name": "URL","scope": [ "*url*", "*link*", "*uri*" ],"settings": { "fontStyle": "underline" }},
+    
+    {"name": "Decorators","scope": [ "tag.decorator.js entity.name.tag.js", "tag.decorator.js punctuation.definition.tag.js" ],"settings": { "fontStyle": "italic", "foreground": "--xotonight-blue" }},
+    
+    {"name": "ES7 Bind Operator","scope": [ "source.js constant.other.object.key.js string.unquoted.label.js" ],"settings": { "fontStyle": "italic", "foreground": "--xotonight-red" }},
+    
+    {"name": "JSON Key - Level 0","scope": [ "source.json meta.structure.dictionary.json support.type.property-name.json" ],"settings": { "foreground": "--xotonight-blue" }},
+    {"name": "JSON Key - Level 1","scope": [ "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json" ],"settings": { "foreground": "--xotonight-sky-blue" }},
+    {"name": "JSON Key - Level 2","scope": [ "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json" ],"settings": { "foreground": "--xotonight-red" }},
+    {"name": "JSON Key - Level 3","scope": [ "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json" ],"settings": { "foreground": "--xotonight-pink" }},
+    {"name": "JSON Key - Level 4","scope": [ "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json" ],"settings": { "foreground": "--xotonight-yellow" }},
+    {"name": "JSON Key - Level 5","scope": [ "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json" ],"settings": { "foreground": "--xotonight-teal" }},
+    {"name": "JSON Key - Level 6","scope": [ "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json" ],"settings": { "foreground": "--xotonight-blue" }},
+    
+    {"name": "Plain Punctuation","scope": [ "punctuation.definition.list_item.markdown" ],"settings": { "foreground": "--xotonight-gray-7" }},
+    {"name": "Block Punctuation","scope": [ "meta.block", "meta.brace", "punctuation.definition.block", "punctuation.definition.parameters", "punctuation.section.function" ],"settings": { "foreground": "--xotonight-gray-9" }},
+    
+    {"name": "Markdown - Plain","scope": [ "meta.jsx.children", "meta.embedded.block" ],"settings": { "foreground": "--xotonight-gray-9" }},
+    {"name": "Markdown - Markup Raw Inline","scope": [ "text.html.markdown markup.inline.raw.markdown" ],"settings": { "foreground": "--xotonight-purple" }},
+    {"name": "Markdown - Markup Raw Inline Punctuation","scope": [ "text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown" ],"settings": { "foreground": "--xotonight-cyan" }},
+    {"name": "Markdown - Heading punctuation","scope": [ "markdown.heading", "markup.heading | markup.heading entity.name", "markup.heading.markdown punctuation.definition.heading.markdown" ],"settings": { "foreground": "--xotonight-cyan" }},
+    
+    {"name": "Markup - Italic","scope": [ "markup.italic" ],"settings": { "fontStyle": "italic", "foreground": "--xotonight-red" }},
+    {"name": "Markup - Bold","scope": [ "markup.bold", "markup.bold string" ],"settings": { "fontStyle": "bold", "foreground": "--xotonight-red" }},
+    {"name": "Markup - Bold-Italic","scope": [ "markup.bold markup.italic", "markup.italic markup.bold", "markup.quote markup.bold", "markup.bold markup.italic string", "markup.italic markup.bold string", "markup.quote markup.bold string" ],"settings": { "fontStyle": "bold", "foreground": "--xotonight-red" }},
+    {"name": "Markup - Underline","scope": [ "markup.underline" ],"settings": { "fontStyle": "underline", "foreground": "--xotonight-orange" }},
+    {"name": "Markup - Quote","scope": [ "markup.quote" ],"settings": { "fontStyle": "italic" }},
+    
+    {"name": "Markdown - Blockquote","scope": [ "markup.quote punctuation.definition.blockquote.markdown" ],"settings": { "foreground": "--xotonight-cyan" }},
+    {"name": "Markdown - Link","scope": [ "string.other.link.title.markdown" ],"settings": { "foreground": "--xotonight-blue" }},
+    {"name": "Markdown - Link Description","scope": [ "string.other.link.description.title.markdown" ],"settings": { "foreground": "--xotonight-purple" }},
+    {"name": "Markdown - Link Anchor","scope": [ "constant.other.reference.link.markdown" ],"settings": { "foreground": "--xotonight-yellow" }},
+    {"name": "Markup - Raw Block","scope": [ "markup.raw.block" ],"settings": { "foreground": "--xotonight-purple" }},
+    {"name": "Markdown - Fenced Bode Block Variable","scope": [ "markup.fenced_code.block.markdown", "markup.inline.raw.string.markdown" ],"settings": { "foreground": "--xotonight-cyan" }},
+    {"name": "Markdown - Fenced Language","scope": [ "variable.language.fenced.markdown" ],"settings": { "foreground": "--xotonight-cyan" }},
+    {"name": "Markdown - Separator","scope": [ "meta.separator" ],"settings": { "fontStyle": "bold", "foreground": "--xotonight-cyan" }},
+    {"name": "Markup - Table","scope": [ "markup.table" ],"settings": { "foreground": "--xotonight-gray-7" }},
+    
+    {"scope": "token.info-token","settings": { "foreground": "--xotonight-sky-blue" }},
+    {"scope": "token.warn-token","settings": { "foreground": "--xotonight-yellow" }},
+    {"scope": "token.error-token","settings": { "foreground": "--xotonight-red" }},
+    {"scope": "token.debug-token","settings": { "foreground": "--xotonight-purple" }},
+    
+    {"name": "Go package name","scope": "source.go entity.name.package","settings": { "foreground": "--xotonight-gray-10" }},
+    {"name": "Go package imports","scope": "source.go entity.name.import","settings": { "foreground": "--xotonight-green" }},
+    {"name": "Go constant placeholder","scope": [ "source.go constant.other.placeholder" ],"settings": { "foreground": "--xotonight-light-red" }},
+    {"name": "Go language constant","scope": [ "source.go constant.language" ],"settings": { "foreground": "--xotonight-purple" }},
+    {"name": "Go types","scope": [ "source.go storage.type" ],"settings": { "fontStyle": "italic", "foreground": "--xotonight-teal" }},
+    {"name": "Go variable declaration and assignment","scope": [ "source.go variable.other.assignment", "source.go variable.other.declaration" ],"settings": { "foreground": "--xotonight-light-red" }}
+  ]
+}
