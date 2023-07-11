@@ -1,6 +1,6 @@
 # xotocode-theme 🔥
 
-<img src="https://github.com/xotocode/xotocode-theme/raw/master/preview.png" alt="Preview">
+<img src="https://github.com/xotocode/xotocode-theme/raw/development/preview.png" alt="Preview">
 
 ## variants
 
