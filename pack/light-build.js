@@ -1,6 +1,6 @@
 const fs = require('fs');
 const lightColors = require('../src/light-colors');
-const lightFiles = ['xotolight.json']; 
+const lightFiles = ['xotocode-light.json']; 
 
 lightFiles.forEach(file => {
   let text = fs.readFileSync(`./src/${file}`, 'utf8');

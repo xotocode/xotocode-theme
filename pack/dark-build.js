@@ -1,7 +1,7 @@
 const fs = require('fs');
 const darkColors = require('../src/dark-colors');
 
-const darkFiles = ['xotonight.json']; 
+const darkFiles = ['xotocode-dark.json']; 
 
 darkFiles.forEach(file => {
   let text = fs.readFileSync(`./src/${file}`, 'utf8');
