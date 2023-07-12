@@ -1,9 +1,9 @@
 {
   "name": "xotocode-theme",
   "displayName": "xotocode-theme",
-  "description": "A VS Code theme with bubblegum colors on a moonlit background.",
+  "description": "A VS Code theme with github and moonlight in mind",
+  "version": "0.0.2",
   "publisher": "xotosphere",
-  "version": "0.0.0",
   "license": "SEE LICENSE IN LICENSE .md",
   "repository": {
     "type": "git",
