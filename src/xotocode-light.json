@@ -1,6 +1,6 @@
 {
   "name": "xotocode-light",
-  "type": "dark",
+  "type": "light",
   "colors": {
     "focusBorder": "#d1d5da58",
     "foreground": "#444d56",
@@ -209,38 +209,32 @@
   
   "tokenColors": [
     { "settings": { "foreground": "#24292eff", "background": "#ffffffff" } },
-
     { "scope": "emphasis", "settings": { "fontStyle": "italic" } },
-    
     { "scope": [ "strong", "markup.heading.markdown", "markup.bold.markdown" ], "settings": { "fontStyle": "bold" } },
-    
     { "scope": ["markup.italic.markdown"], "settings": { "fontStyle": "italic" } },
     { "scope": "meta.link.inline.markdown", "settings": { "fontStyle": "underline", "foreground": "#005cc5" } },
-    
     { "scope": [ "comment", "markup.fenced_code", "markup.inline" ], "settings": { "foreground": "#6a737d" } },
-    
     { "scope": "string", "settings": { "foreground": "#032f62" } },
-
     { "scope": [ "keyword.operator.accessor", "meta.group.braces.round.function.arguments", "meta.template.expression", "meta.interpolation", "markup.fenced_code meta.embedded.block" ], "settings": { "foreground": "#24292eff" } },
     { "scope": [ "keyword", "storage.modifier", "storage.type", "storage.control.clojure", "entity.name.function.clojure", "support.function.node", "support.type.property-name.json", "punctuation.separator.key-value", "punctuation.definition.template-expression", "punctuation.definition.interpolation", "support.constant.property-value.css" ], "settings": { "foreground": "#d73a49" } },
-    
     { "scope": "variable.parameter.function", "settings": { "foreground": "#E27F2D" } },
-    
     { "scope": [ "entity.name.type", "entity.other.inherited-class", "meta.function-call", "meta.instance.constructor", "entity.other.attribute-name", "entity.name.function", "constant.keyword.clojure" ], "settings": { "foreground": "#6f42c1" } },
     { "scope": [ "entity.name.tag", "string.quoted", "string.regexp", "string.interpolated", "string.template", "keyword.other.template" ], "settings": { "foreground": "#22863a" } },
-    
     { "scope": "token.info-token", "settings": { "foreground": "#316bcd" } },
     { "scope": "token.warn-token", "settings": { "foreground": "#cd9731" } },
     { "scope": [ "token.error-token", "invalid" ], "settings": { "foreground": "#cd3131" } },
     { "scope": "token.debug-token", "settings": { "foreground": "#800080" } },
-    
     { "scope": "markup.inserted", "settings": { "foreground": "#22863a" } },
     { "scope": "markup.deleted", "settings": { "foreground": "#d73a49" } },
     { "scope": "markup.changed", "settings": { "foreground": "#005cc5" } },
-    
     { "scope": "meta.diff.header", "settings": { "foreground": "#6a737d" } },
-    
     { "scope": [ "constant.numeric", "constant.language", "variable.language.this", "variable.other.class", "variable.other.constant", "meta.property-name", "meta.property-value", "support" ], "settings": { "foreground": "#005cc5" } },
-    { "scope": [ "constant.numeric.css", "support.function.misc.css", "constant.other.color.rgb-value.hex.css", "punctuation.section.function.begin.bracket.round.css", "punctuation.section.function.end.bracket.round.css" ], "settings": { "foreground": "#353535" } }
+    { "scope": [ "constant.numeric.css", "support.function.misc.css", "constant.other.color.rgb-value.hex.css", "punctuation.section.function.begin.bracket.round.css", "punctuation.section.function.end.bracket.round.css" ], "settings": { "foreground": "#353535" } },
+    
+    { "name": "comparison and logical", "scope": ["keyword.operator.comparison", "keyword.operator.logical"], "settings": { "foreground": "#d0775c" } },
+    { "name": "variable property", "scope": ["variable.other.property" ], "settings": { "foreground": "#5a5662"  } },
+    { "name": "variable property", "scope": ["support.variable.property"], "settings": { "foreground": "#4e6fbd"  } },
+    { "name": "variable object", "scope": ["variable.other.object", ""], "settings": { "foreground": "#323232" } },
+    { "name": "storage.type.function.arrow", "scope": ["storage.type.function.arrow"], "settings": { "foreground": "#ad5e86" } }
   ]
 }
