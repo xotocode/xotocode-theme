@@ -2,7 +2,7 @@
   "name": "xotocode-theme",
   "displayName": "xotocode-theme",
   "description": "A VS Code theme with github and moonlight in mind",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "publisher": "xotosphere",
   "license": "SEE LICENSE IN LICENSE .md",
   "repository": {
@@ -10,7 +10,7 @@
     "url": "https://github.com/xotocode/xotocode-theme"
   },
   "keywords": [
-    "Theme"  
+    "Theme"
   ],
   "scripts": {
     "publish": "vsce publish",
@@ -27,12 +27,23 @@
   "icon": "icon.png",
   "contributes": {
     "themes": [
-      { "label": "xotocode-dark", "uiTheme": "vs-dark", "path": "./themes/xotocode-dark.json" },
-      { "label": "xotocode-light", "uiTheme": "hc-light", "path": "./themes/xotocode-light.json" }
+      {
+        "label": "xotocode-dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/xotocode-dark.json"
+      },
+      {
+        "label": "xotocode-light",
+        "uiTheme": "hc-light",
+        "path": "./themes/xotocode-light.json"
+      }
     ]
   },
   "devDependencies": {
     "prettier": "^1.19.1",
     "vsce": "^1.71.0"
+  },
+  "dependencies": {
+    "yarn": "^1.22.19"
   }
 }

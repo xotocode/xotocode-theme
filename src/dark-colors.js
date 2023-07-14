@@ -1,50 +1,49 @@
 module.exports = {
-  '--xotocode-dark-desaturated-gray': '#7f85a3',
-  '--xotocode-dark-dark-blue': '#3e68d7',
-  '--xotocode-dark-blue': '#82aaff',
-  '--xotocode-dark-sky-blue': '#65bcff',
-  '--xotocode-dark-cyan': '#86e1fc',
-  '--xotocode-dark-red': '#ff757f',
-  '--xotocode-dark-dark-red': '#ff5370',
-  '--xotocode-dark-light-red': '#ff98a4',
-  '--xotocode-dark-yellow': '#ffc777',
-  '--xotocode-dark-orange': '#ff966c',
-  '--xotocode-dark-dark-orange': '#fc7b7b',
-  '--xotocode-dark-teal': '#4fd6be',
-  '--xotocode-dark-green': '#c3e88d',
-  '--xotocode-dark-purple': '#c099ff',
-  '--xotocode-dark-pink': '#fca7ea',
-  '--xotocode-dark-indigo': '#7a88cf',
-  '--xotocode-dark-bright-cyan': '#b4f9f8',
-  '--xotocode-dark-gray-10-alt': '#bcc4d6',
-  '--xotocode-dark-gray-10': '#c8d3f5',
-  '--xotocode-dark-gray-9': '#b4c2f0',
-  '--xotocode-dark-gray-8': '#a9b8e8',
-  '--xotocode-dark-gray-7': '#828bb8',
-  '--xotocode-dark-gray-6': '#444a73',
-  '--xotocode-dark-gray-5': '#2f334d',
-  '--xotocode-dark-gray-4': '#222436',
-  '--xotocode-dark-gray-3': '#1e2030',
+  '--xotocode-dark-black-0': '#000000',
+  '--xotocode-dark-dark-blue-0': '#3e68d7',
+  '--xotocode-dark-blue-0': '#82aaff',
+  '--xotocode-dark-blue-2': '#1b1d2c',
+  '--xotocode-dark-blue-3': '#446bbb',
+  '--xotocode-dark-blue-4': '#383e5c',
+  '--xotocode-dark-blue-5': '#292e46',
+  '--xotocode-dark-blue-6': '#1d2031',
+  '--xotocode-dark-blue-7': '#1372c4',
+  '--xotocode-dark-blue-8': '#292a4e',
+  '--xotocode-dark-blue-9': '#313361',
+  '--xotocode-dark-blue-10': '#3a4670',
+  '--xotocode-dark-bright-cyan-0': '#b4f9f8',
+  '--xotocode-dark-cyan-0': '#86e1fc',
+  '--xotocode-dark-cyan-2': '#b2dfff',
+  '--xotocode-dark-dark-red-0': '#ff5370',
+  '--xotocode-dark-red-0': '#ff757f',
+  '--xotocode-dark-red-2': '#c53b53',
+  '--xotocode-dark-light-red-0': '#ff98a4',
+  '--xotocode-dark-pink-0': '#fca7ea',
+  '--xotocode-dark-desatured-gray-0': '#7f85a3',
+  '--xotocode-dark-gray-1': '#131421',
   '--xotocode-dark-gray-2': '#191a2a',
-  '--xotocode-dark-gray-1': '#131421'
+  '--xotocode-dark-gray-3': '#1e2030',
+  '--xotocode-dark-gray-4': '#222436',
+  '--xotocode-dark-gray-5': '#2f334d',
+  '--xotocode-dark-gray-6': '#444a73',
+  '--xotocode-dark-gray-7': '#828bb8',
+  '--xotocode-dark-gray-8': '#a9b8e8',
+  '--xotocode-dark-gray-9': '#b4c2f0',
+  '--xotocode-dark-gray-10': '#c8d3f5',
+  '--xotocode-dark-gray-10-alt-0': '#bcc4d6',
+  '--xotocode-dark-indigo-0': '#7a88cf',
+  '--xotocode-dark-bright-cyan-0': '#b4f9f8',
+  '--xotocode-dark-brown-0': '#ad7c43',
+  '--xotocode-dark-teal-0': '#4fd6be',
+  '--xotocode-dark-green-0': '#c3e88d',
+  '--xotocode-dark-green-light-0': '#77e0c6',
+  '--xotocode-dark-yellow-0': '#ffc777',
+  '--xotocode-dark-orange-0': '#ff966c',
+  '--xotocode-dark-dark-orange-0': '#fc7b7b',
+  '--xotocode-dark-purple-0': '#c099ff',
+  '--xotocode-dark-purple-2': '#777fab',
+  '--xotocode-dark-purple-3': '#696fc1',
+  '--xotocode-dark-sky-blue-0': '#65bcff',
+  '--xotocode-dark-sky-blue-2': '#82cafe',
+  '--xotocode-dark-white-0': '#ffffff'
 };
-
-// OTHERS THAT DONT : 
-
-// #00000022
-// #b2dfff
-// #1b1d2c
-// #000000aa
-// #ffffff
-// #00000066
-// #c53b53
-// #446bbb
-// #ad7c43
-// #383e5c
-// #292e46
-// #000000
-// #00000033
-// #00000030
-// #77e0c6dd
-// #777fabaa
-// #00000050
