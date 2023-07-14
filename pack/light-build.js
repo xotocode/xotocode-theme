@@ -1,6 +1,5 @@
 const fs = require('fs');
 const lightColors = require('../src/light-colors');
-
 const lightFiles = ['xotocode-light.json']; 
 
 lightFiles.forEach(file => {
